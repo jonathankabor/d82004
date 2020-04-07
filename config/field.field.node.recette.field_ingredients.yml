@@ -1,0 +1,19 @@
+uuid: 1f79efe2-08c8-4258-8a36-3d3c85f22855
+langcode: fr
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_ingredients
+    - node.type.recette
+id: node.recette.field_ingredients
+field_name: field_ingredients
+entity_type: node
+bundle: recette
+label: Ingrédients
+description: 'Enumerez tous vos ingrédients.'
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

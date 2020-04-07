@@ -1,0 +1,21 @@
+uuid: b0b4d4cd-99fd-481f-92e7-e1a7a9f73e46
+langcode: fr
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_preparation
+    - node.type.recette
+  module:
+    - text
+id: node.recette.field_preparation
+field_name: field_preparation
+entity_type: node
+bundle: recette
+label: Préparation
+description: 'Décrivez, étape par étape la préparation de votre plat.'
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text

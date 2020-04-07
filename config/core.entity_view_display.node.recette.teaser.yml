@@ -1,0 +1,39 @@
+uuid: fbb79f9a-37b4-4024-9378-36afe9a509c3
+langcode: fr
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.recette.body
+    - field.field.node.recette.field_image
+    - field.field.node.recette.field_ingredients
+    - field.field.node.recette.field_preparation
+    - field.field.node.recette.field_temps_en_minutes
+    - node.type.recette
+  module:
+    - text
+    - user
+id: node.recette.teaser
+targetEntityType: node
+bundle: recette
+mode: teaser
+content:
+  body:
+    label: hidden
+    type: text_summary_or_trimmed
+    weight: 101
+    settings:
+      trim_length: 600
+    third_party_settings: {  }
+    region: content
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden:
+  field_image: true
+  field_ingredients: true
+  field_preparation: true
+  field_temps_en_minutes: true
+  langcode: true

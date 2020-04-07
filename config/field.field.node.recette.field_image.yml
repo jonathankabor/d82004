@@ -1,20 +1,18 @@
-uuid: 2a9cfd4e-9f4a-48b7-92e9-e768115675d4
+uuid: 8db3b1c7-d64a-4a65-9d2a-a9434080816a
 langcode: fr
 status: true
 dependencies:
   config:
     - field.storage.node.field_image
-    - node.type.article
+    - node.type.recette
   module:
     - image
-_core:
-  default_config_hash: tgJzhA7Swh4M_gWU5FwFe5lPxPj5rebpMbvhpdNrERs
-id: node.article.field_image
+id: node.recette.field_image
 field_name: field_image
 entity_type: node
-bundle: article
-label: Image
-description: ''
+bundle: recette
+label: Illustration
+description: 'Nous avons aussi des recettes fait maison.'
 required: false
 translatable: true
 default_value: {  }
@@ -30,11 +28,11 @@ settings:
   title_field: false
   title_field_required: false
   default_image:
-    uuid: ''
+    uuid: 2f691e43-1abe-459c-8564-073a8c77418c
     alt: ''
     title: ''
-    width: null
-    height: null
+    width: 266
+    height: 190
   handler: 'default:file'
   handler_settings: {  }
 field_type: image
