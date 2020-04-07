@@ -238,7 +238,7 @@ $databases = [];
  * its location.
  */
 # $settings['config_sync_directory'] = '/directory/outside/webroot';
-
+#$settings['config_sync_directory'] = $app_root.'/../config';
 /**
  * Settings:
  *
@@ -765,4 +765,5 @@ $databases['default']['default'] = array (
   'namespace' => 'Drupal\\Core\\Database\\Driver\\mysql',
   'driver' => 'mysql',
 );
-$settings['config_sync_directory'] = 'sites/default/files/config_OgVvf8MazjvPjepbWuG_xnuZJ0LQm2kFtSvO_xuztsRHtTduSgfmvNn7HeF0-whwkSCMSrTI5A/sync';
+#$settings['config_sync_directory'] = 'sites/default/files/config_OgVvf8MazjvPjepbWuG_xnuZJ0LQm2kFtSvO_xuztsRHtTduSgfmvNn7HeF0-whwkSCMSrTI5A/sync';
+$settings['config_sync_directory'] = $app_root.'/../config';
