@@ -81,6 +81,10 @@
       <path value="$PROJECT_DIR$/vendor/symfony/polyfill-iconv" />
       <path value="$PROJECT_DIR$/vendor/symfony/validator" />
       <path value="$PROJECT_DIR$/vendor/symfony/event-dispatcher" />
+      <path value="$PROJECT_DIR$/vendor/ezyang/htmlpurifier" />
+      <path value="$PROJECT_DIR$/vendor/kub-at/php-simple-html-dom-parser" />
+      <path value="$PROJECT_DIR$/vendor/mkalkbrenner/php-htmldiff-advanced" />
+      <path value="$PROJECT_DIR$/vendor/caxy/php-htmldiff" />
     </include_path>
   </component>
   <component name="PhpUnit">
