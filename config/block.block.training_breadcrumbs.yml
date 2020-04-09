@@ -1,0 +1,22 @@
+uuid: 9c30073d-5db3-482f-9e93-cc447a8900e0
+langcode: fr
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - training
+_core:
+  default_config_hash: oXUb3JZR2WW5VOdw4HrhRicCsq51mCgLfRyvheG68ck
+id: training_breadcrumbs
+theme: training
+region: breadcrumb
+weight: 0
+provider: null
+plugin: system_breadcrumb_block
+settings:
+  id: system_breadcrumb_block
+  label: 'Fils d''ariane'
+  provider: system
+  label_display: '0'
+visibility: {  }

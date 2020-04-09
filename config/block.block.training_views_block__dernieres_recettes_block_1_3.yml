@@ -1,0 +1,25 @@
+uuid: 77327f11-2abc-4c27-baf1-db614ba1e7c3
+langcode: fr
+status: true
+dependencies:
+  config:
+    - views.view.dernieres_recettes
+  module:
+    - views
+  theme:
+    - training
+id: training_views_block__dernieres_recettes_block_1_3
+theme: training
+region: sidebar_second
+weight: 0
+provider: null
+plugin: 'views_block:dernieres_recettes-block_1'
+settings:
+  id: 'views_block:dernieres_recettes-block_1'
+  label: ''
+  provider: views
+  label_display: visible
+  views_label: ''
+  items_per_page: none
+  context_mapping: {  }
+visibility: {  }

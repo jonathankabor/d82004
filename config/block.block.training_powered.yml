@@ -1,0 +1,22 @@
+uuid: 06f98a2d-e416-4994-a60c-a7b61f783ce6
+langcode: fr
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - training
+_core:
+  default_config_hash: jQQUUWN2Uxr5qZtc9zcJKBCxpKY8orN1u2HPqYYRQDI
+id: training_powered
+theme: training
+region: sidebar_first
+weight: 10
+provider: null
+plugin: system_powered_by_block
+settings:
+  id: system_powered_by_block
+  label: 'Propulsé par Drupal'
+  provider: system
+  label_display: '0'
+visibility: {  }
