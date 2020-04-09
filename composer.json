@@ -25,7 +25,8 @@
         "drupal/extlink": "^1.2",
         "drupal/pathauto": "^1.6",
         "drupal/redirect": "^1.5",
-        "drush/drush": "^10.2"
+        "drush/drush": "^10.2",
+        "psr/cache": "^1.0"
     },
     "conflict": {
         "drupal/drupal": "*"

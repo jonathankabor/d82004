@@ -85,6 +85,7 @@
       <path value="$PROJECT_DIR$/vendor/kub-at/php-simple-html-dom-parser" />
       <path value="$PROJECT_DIR$/vendor/mkalkbrenner/php-htmldiff-advanced" />
       <path value="$PROJECT_DIR$/vendor/caxy/php-htmldiff" />
+      <path value="$PROJECT_DIR$/vendor/psr/cache" />
     </include_path>
   </component>
   <component name="PhpUnit">
