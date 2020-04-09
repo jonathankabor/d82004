@@ -1,0 +1,41 @@
+uuid: e7c86e53-f48b-4f2d-954c-98e1b39e8264
+langcode: fr
+status: true
+dependencies:
+  config:
+    - views.view.dernieres_recettes
+  module:
+    - ctools
+    - node
+    - views
+  theme:
+    - bartik
+id: views_block__dernieres_recettes_block_1_2
+theme: bartik
+region: highlighted
+weight: -7
+provider: null
+plugin: 'views_block:dernieres_recettes-block_1'
+settings:
+  id: 'views_block:dernieres_recettes-block_1'
+  label: ''
+  provider: views
+  label_display: visible
+  views_label: ''
+  items_per_page: none
+  context_mapping: {  }
+visibility:
+  'entity_bundle:node':
+    id: 'entity_bundle:node'
+    bundles:
+      recette: recette
+    negate: false
+    context_mapping:
+      node: '@node.node_route_context:node'
+  node_type:
+    id: node_type
+    bundles:
+      recette: recette
+    negate: false
+    context_mapping:
+      node: '@node.node_route_context:node'

@@ -1,0 +1,33 @@
+uuid: bdf5f184-7226-4bbe-a2d8-3b3999e24c1d
+langcode: fr
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:94564e96-8dce-4c0a-9ecf-4152c870d3a6'
+  module:
+    - block_content
+    - ctools
+  theme:
+    - bartik
+id: infosdivers
+theme: bartik
+region: sidebar_first
+weight: 0
+provider: null
+plugin: 'block_content:94564e96-8dce-4c0a-9ecf-4152c870d3a6'
+settings:
+  id: 'block_content:94564e96-8dce-4c0a-9ecf-4152c870d3a6'
+  label: infos/divers
+  provider: block_content
+  label_display: visible
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  'entity_bundle:node':
+    id: 'entity_bundle:node'
+    bundles:
+      recette: recette
+    negate: false
+    context_mapping:
+      node: '@node.node_route_context:node'

@@ -1,0 +1,29 @@
+uuid: d1b0ea6c-acea-49c8-872b-db2a265acc32
+langcode: fr
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_voc
+    - node.type.recette
+    - taxonomy.vocabulary.tags
+id: node.recette.field_voc
+field_name: field_voc
+entity_type: node
+bundle: recette
+label: voc
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      tags: tags
+    sort:
+      field: name
+      direction: asc
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

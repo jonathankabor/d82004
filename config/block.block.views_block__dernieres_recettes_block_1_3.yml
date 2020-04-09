@@ -1,0 +1,25 @@
+uuid: 80abe64d-ddb3-47e5-a293-58fc11995ed0
+langcode: fr
+status: true
+dependencies:
+  config:
+    - views.view.dernieres_recettes
+  module:
+    - views
+  theme:
+    - bartik
+id: views_block__dernieres_recettes_block_1_3
+theme: bartik
+region: sidebar_second
+weight: 0
+provider: null
+plugin: 'views_block:dernieres_recettes-block_1'
+settings:
+  id: 'views_block:dernieres_recettes-block_1'
+  label: ''
+  provider: views
+  label_display: visible
+  views_label: ''
+  items_per_page: none
+  context_mapping: {  }
+visibility: {  }

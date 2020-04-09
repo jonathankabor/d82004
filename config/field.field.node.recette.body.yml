@@ -14,7 +14,7 @@ bundle: recette
 label: Présentation
 description: 'Ce texte sert à présenter la recette. Vous pouvez décrire par exemple <em>quand</em> et <em>comment</em> vous avez élaborez la recette ou dans quel contexte elle convient particulièrement.'
 required: false
-translatable: true
+translatable: false
 default_value: {  }
 default_value_callback: ''
 settings:

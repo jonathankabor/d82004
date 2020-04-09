@@ -14,7 +14,7 @@ bundle: recette
 label: Illustration
 description: 'Nous avons aussi des recettes fait maison.'
 required: false
-translatable: true
+translatable: false
 default_value: {  }
 default_value_callback: ''
 settings:

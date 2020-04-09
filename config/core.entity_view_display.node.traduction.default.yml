@@ -1,0 +1,29 @@
+uuid: 1f279674-a53d-44a6-a5f9-a3f23dc30878
+langcode: fr
+status: true
+dependencies:
+  config:
+    - field.field.node.traduction.body
+    - node.type.traduction
+  module:
+    - text
+    - user
+id: node.traduction.default
+targetEntityType: node
+bundle: traduction
+mode: default
+content:
+  body:
+    label: hidden
+    type: text_default
+    weight: 101
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  links:
+    weight: 100
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+hidden:
+  langcode: true

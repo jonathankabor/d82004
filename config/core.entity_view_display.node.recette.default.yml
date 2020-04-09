@@ -8,6 +8,7 @@ dependencies:
     - field.field.node.recette.field_ingredients
     - field.field.node.recette.field_preparation
     - field.field.node.recette.field_temps_en_minutes
+    - field.field.node.recette.field_voc
     - node.type.recette
   module:
     - image
@@ -57,6 +58,14 @@ content:
       prefix_suffix: true
     third_party_settings: {  }
     type: number_integer
+    region: content
+  field_voc:
+    weight: 107
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    type: entity_reference_label
     region: content
   links:
     weight: 100

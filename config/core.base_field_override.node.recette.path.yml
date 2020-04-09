@@ -1,0 +1,20 @@
+uuid: 95eeb5b1-90b7-4aa0-89d1-09b697b294da
+langcode: fr
+status: true
+dependencies:
+  config:
+    - node.type.recette
+  module:
+    - path
+id: node.recette.path
+field_name: path
+entity_type: node
+bundle: recette
+label: 'Alias d''URL'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: path

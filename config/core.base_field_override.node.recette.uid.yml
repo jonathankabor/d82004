@@ -1,0 +1,20 @@
+uuid: 52aa2734-1a7f-4d15-a7f1-003a6b4c42d0
+langcode: fr
+status: true
+dependencies:
+  config:
+    - node.type.recette
+id: node.recette.uid
+field_name: uid
+entity_type: node
+bundle: recette
+label: 'Écrit par'
+description: 'Le nom d''utilisateur de l''auteur du contenu.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: 'Drupal\node\Entity\Node::getDefaultEntityOwner'
+settings:
+  handler: default
+  handler_settings: {  }
+field_type: entity_reference

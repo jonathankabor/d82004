@@ -8,6 +8,7 @@ dependencies:
     - field.field.node.recette.field_ingredients
     - field.field.node.recette.field_preparation
     - field.field.node.recette.field_temps_en_minutes
+    - field.field.node.recette.field_voc
     - image.style.thumbnail
     - node.type.recette
   module:
@@ -65,6 +66,16 @@ content:
       placeholder: ''
     third_party_settings: {  }
     type: number
+    region: content
+  field_voc:
+    weight: 127
+    settings:
+      match_operator: CONTAINS
+      match_limit: 10
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: entity_reference_autocomplete
     region: content
   langcode:
     type: language_select

@@ -9,8 +9,10 @@ dependencies:
     - field.field.node.recette.field_ingredients
     - field.field.node.recette.field_preparation
     - field.field.node.recette.field_temps_en_minutes
+    - field.field.node.recette.field_voc
     - node.type.recette
   module:
+    - image
     - text
     - user
 id: node.recette.teaser
@@ -21,19 +23,36 @@ content:
   body:
     label: hidden
     type: text_summary_or_trimmed
-    weight: 101
+    weight: 3
     settings:
       trim_length: 600
     third_party_settings: {  }
     region: content
+  field_image:
+    type: image
+    weight: 2
+    region: content
+    label: above
+    settings:
+      image_style: ''
+      image_link: ''
+    third_party_settings: {  }
+  field_temps_en_minutes:
+    type: number_integer
+    weight: 1
+    region: content
+    label: above
+    settings:
+      thousand_separator: ''
+      prefix_suffix: true
+    third_party_settings: {  }
   links:
-    weight: 100
+    weight: 0
+    region: content
     settings: {  }
     third_party_settings: {  }
-    region: content
 hidden:
-  field_image: true
   field_ingredients: true
   field_preparation: true
-  field_temps_en_minutes: true
+  field_voc: true
   langcode: true

@@ -1,0 +1,23 @@
+uuid: 855cc3ba-ce5f-407f-b941-f26eb00d52b7
+langcode: fr
+status: true
+dependencies:
+  config:
+    - field.storage.node.body
+    - node.type.traduction
+  module:
+    - text
+id: node.traduction.body
+field_name: body
+entity_type: node
+bundle: traduction
+label: Body
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: true
+  required_summary: false
+field_type: text_with_summary

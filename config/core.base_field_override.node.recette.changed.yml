@@ -1,0 +1,18 @@
+uuid: 72b3dd83-3ed5-48d9-a24e-54b9c3cea61a
+langcode: fr
+status: true
+dependencies:
+  config:
+    - node.type.recette
+id: node.recette.changed
+field_name: changed
+entity_type: node
+bundle: recette
+label: Modifié
+description: 'La date à laquelle le nœud a été modifié pour la dernière fois.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: changed

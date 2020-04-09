@@ -1,0 +1,22 @@
+uuid: 7f4e0eb4-f123-4872-b35d-a7476fa8283e
+langcode: fr
+status: true
+dependencies:
+  config:
+    - node.type.recette
+id: node.recette.sticky
+field_name: sticky
+entity_type: node
+bundle: recette
+label: 'Epinglé en haut des listes'
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

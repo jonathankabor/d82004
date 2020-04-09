@@ -1,0 +1,14 @@
+uuid: 73bf1334-35dc-4f6d-bd01-ba1d472fb26c
+langcode: fr
+status: true
+dependencies:
+  module:
+    - taxonomy
+id: '2'
+label: voc
+type: 'canonical_entities:taxonomy_term'
+pattern: '[term:vocabulary:name]/[term:name]'
+selection_criteria: {  }
+selection_logic: and
+weight: 0
+relationships: {  }
