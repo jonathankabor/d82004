@@ -1,0 +1,16 @@
+
+body {
+  background-color: #9f9e00;
+}
+
+.menu {
+  display: inline-flex;
+}
+
+.site-name{
+  margin-left: 200px;
+}
+
+.site-slogan{
+  margin-left: 230px;
+}
